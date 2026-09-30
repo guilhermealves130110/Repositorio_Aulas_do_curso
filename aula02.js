@@ -6,7 +6,7 @@ const nome = await input({ message: 'qual é o seu nome?'});
 
 console.log("bem vindo, " + nome + "!");
 
-const idade = await number ({
+let idade = await number ({
 message: "Idade?",
 min:0,
 max:120,
@@ -15,6 +15,8 @@ required:true
 
 // let idade_depois = idade = 1;
 // const nome idade
+
+ let idade_depois = idade + 1;
 
 console.log("bem vindo,")
 console.log(typeof idade);

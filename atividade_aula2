@@ -1,0 +1,5 @@
+import { number, confirm} from '@inquirer/prompts';
+const nome = await input({ message: 'qual é sua idade?'});
+
+const idade = await input({ message: 'idade?'});
+
